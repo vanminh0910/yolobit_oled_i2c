@@ -114,7 +114,7 @@ Blockly.Python['oled_text'] = function(block) {
   var dropdown_color = block.getFieldValue('COLOR');
   // TODO: Assemble Python into code variable.
   //oled.text('Hello, World 1!', 0, 0, col); oled.show()
-  var code = variable_oled_lcd + '.text("' + value_text + '", ' + value_x + ', ' + value_y + ', ' + dropdown_color + '); ' + variable_oled_lcd + '.show()\n';
+  var code = variable_oled_lcd + '.text(' + value_text + ', ' + value_x + ', ' + value_y + ', ' + dropdown_color + '); ' + variable_oled_lcd + '.show()\n';
   return code;
 };
 
