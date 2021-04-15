@@ -3,12 +3,12 @@ Blockly.Blocks['oled_create'] = {
     this.jsonInit(
       {
         "type": "oled_create",
-        "message0": Blockly.Msg.OLED_CREATE_MESSAGE0,
+        "message0": Blockly.Msg.BLOCK_OLED_CREATE_MESSAGE0,
         "args0": [
           {
             "type": "field_variable",
             "name": "oled_lcd",
-            "variable": Blockly.Msg.OLED_CREATE_MESSAGE1,
+            "variable": Blockly.Msg.BLOCK_OLED_CREATE_MESSAGE1,
           },
           {
             "type": "field_number",
@@ -31,8 +31,8 @@ Blockly.Blocks['oled_create'] = {
         "previousStatement": null,
         "nextStatement": null,
         "colour": "#27b0ba",
-        "tooltip": Blockly.Msg.OLED_CREATE_TOOLTIP,
-        "helpUrl": Blockly.Msg.OLED_CREATE_HELPURL
+        "tooltip": Blockly.Msg.BLOCK_OLED_CREATE_TOOLTIP,
+        "helpUrl": Blockly.Msg.BLOCK_OLED_CREATE_HELPURL
       }
     );
   }
@@ -57,12 +57,12 @@ Blockly.Blocks['oled_text'] = {
     this.jsonInit(
       {
         "type": "oled_text",
-        "message0": Blockly.Msg.OLED_TEXT_MESSAGE0,
+        "message0": Blockly.Msg.BLOCK_OLED_TEXT_MESSAGE0,
         "args0": [
           {
             "type": "field_variable",
             "name": "oled_lcd",
-            "variable": Blockly.Msg.OLED_TEXT_MESSAGE1,
+            "variable": Blockly.Msg.BLOCK_OLED_TEXT_MESSAGE1,
           },
           {
             "type": "input_dummy"
@@ -86,11 +86,11 @@ Blockly.Blocks['oled_text'] = {
             "name": "COLOR",
             "options": [
               [
-                Blockly.Msg.OLED_TEXT_MESSAGE2, //white
+                Blockly.Msg.BLOCK_OLED_TEXT_MESSAGE2, //white
                 "1"
               ],
               [
-                Blockly.Msg.OLED_TEXT_MESSAGE3, //black
+                Blockly.Msg.BLOCK_OLED_TEXT_MESSAGE3, //black
                 "0"
               ]
             ]
@@ -99,8 +99,8 @@ Blockly.Blocks['oled_text'] = {
         "previousStatement": null,
         "nextStatement": null,
         "colour": "#27b0ba",
-        "tooltip": Blockly.Msg.OLED_TEXT_TOOLTIP,
-        "helpUrl": Blockly.Msg.OLED_TEXT_HELPURL
+        "tooltip": Blockly.Msg.BLOCK_OLED_TEXT_TOOLTIP,
+        "helpUrl": Blockly.Msg.BLOCK_OLED_TEXT_HELPURL
       }
     );
   }
@@ -123,23 +123,23 @@ Blockly.Blocks['oled_fill'] = {
     this.jsonInit(
       {
         "type": "oled_fill",
-        "message0": Blockly.Msg.OLED_FILL_MESSAGE0,
+        "message0": Blockly.Msg.BLOCK_OLED_FILL_MESSAGE0,
         "args0": [
           {
             "type": "field_variable",
             "name": "oled_lcd",
-            "variable": Blockly.Msg.OLED_FILL_MESSAGE1,
+            "variable": Blockly.Msg.BLOCK_OLED_FILL_MESSAGE1,
           },
           {
             "type": "field_dropdown",
             "name": "COLOR",
             "options": [
               [
-                Blockly.Msg.OLED_FILL_MESSAGE2, //black
+                Blockly.Msg.BLOCK_OLED_FILL_MESSAGE2, //black
                 "0"
               ],
               [
-                Blockly.Msg.OLED_FILL_MESSAGE3, //white
+                Blockly.Msg.BLOCK_OLED_FILL_MESSAGE3, //white
                 "1"
               ]
             ]
@@ -148,8 +148,8 @@ Blockly.Blocks['oled_fill'] = {
         "previousStatement": null,
         "nextStatement": null,
         "colour": "#27b0ba",
-        "tooltip": Blockly.Msg.OLED_FILL_TOOLTIP,
-        "helpUrl": Blockly.Msg.OLED_FILL_HELPURL
+        "tooltip": Blockly.Msg.BLOCK_OLED_FILL_TOOLTIP,
+        "helpUrl": Blockly.Msg.BLOCK_OLED_FILL_HELPURL
       }
     );
   }
@@ -169,23 +169,23 @@ Blockly.Blocks['oled_onoff'] = {
     this.jsonInit(
       {
         "type": "oled_onoff",
-        "message0": Blockly.Msg.OLED_TURN_MESSAGE0,
+        "message0": Blockly.Msg.BLOCK_OLED_TURN_MESSAGE0,
         "args0": [
           {
             "type": "field_variable",
             "name": "oled_lcd",
-            "variable": Blockly.Msg.OLED_TURN_MESSAGE1,
+            "variable": Blockly.Msg.BLOCK_OLED_TURN_MESSAGE1,
           },
           {
             "type": "field_dropdown",
             "name": "ONOFF",
             "options": [
               [
-                Blockly.Msg.OLED_TURN_MESSAGE2,
+                Blockly.Msg.BLOCK_OLED_TURN_MESSAGE2,
                 "ON"
               ],
               [
-                Blockly.Msg.OLED_TURN_MESSAGE3,
+                Blockly.Msg.BLOCK_OLED_TURN_MESSAGE3,
                 "OFF"
               ]
             ]
@@ -194,8 +194,8 @@ Blockly.Blocks['oled_onoff'] = {
         "previousStatement": null,
         "nextStatement": null,
         "colour": "#27b0ba",
-        "tooltip": Blockly.Msg.OLED_TURN_TOOLTIP,
-        "helpUrl": Blockly.Msg.OLED_TURN_HELPURL
+        "tooltip": Blockly.Msg.BLOCK_OLED_TURN_TOOLTIP,
+        "helpUrl": Blockly.Msg.BLOCK_OLED_TURN_HELPURL
       }
     );
   }
